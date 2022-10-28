@@ -13,7 +13,7 @@ public class Ovn28 {
 		
 		int litenbokstav=teckenkod+32;
 		
-		    char lowercaseletter =(char) litenbokstav; 
+		    char lowercaseletter =(char) litenbokstav;  // omvandlar till char
 		
 		System.out.println(lowercaseletter);
 		
