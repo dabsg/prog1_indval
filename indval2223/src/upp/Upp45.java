@@ -14,6 +14,9 @@ public class Upp45 {
 		String nämnare = täljareNämnare.substring(0, 1);
 		String täljare = täljareNämnare.substring(2, 3);
 		
+		//int posMellanslag = täljareNämnare.indexOf(" ");
+		//int slut= täljareNämnare.length();
+		
 		int n = Integer.parseInt(nämnare);
 		int t = Integer.parseInt(täljare); 
 		
