@@ -3,7 +3,7 @@ package upp;
 public class Upp44 {
 
 	public static void main(String[] args) {
-		// obs inte komplett lösning men ett steg påvägen
+		// obs inte komplett lösning på uppgiften men ett steg påvägen
 
 		double d = 160;
 
