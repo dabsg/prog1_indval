@@ -1,5 +1,7 @@
 package variabler;
 
+import java.util.Calendar;
+
 public class Var1 {
 
 	public static void main(String[] args) {
@@ -13,6 +15,9 @@ public class Var1 {
 		double  produkt=(tal*tal2);
 		
 		System.out.println("svaret blir" +produkt+" kr");
+		
+		String datornsTid=Calendar.getInstance().getTime().toString();
+		System.out.print(datornsTid);
 		
 	}
 	
