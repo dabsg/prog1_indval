@@ -2,37 +2,41 @@ package metoder;
 
 public class Matte {
 
-	public static void plus(int e, int r) {
-		r=100;
-		e=100;
-		int summa=e+r;
-		System.out.println("summa:"+summa);
-	}
-	public static void plus(int e ,double r) {
+	
+	public static void printNumbers(int i) {
 		
-		double summa=e+r;
-		System.out.println("summa:"+summa);
-	}
-	public static int Minus(int a, int c) {
+		for(int j=0; j<i ;j++) {
+			
+			System.out.println(j);
+		}
 		
-		int differens = a-c;
-		return differens;
+	}
+	public static void printSumma(int i , int j ) {
+		
+		int summa = i+j;
+		
+		System.out.println("summa:"+summa);
+		
 	}
 	
 	
-
+	public static void printSumma(int i,int j,int k) {
+		
+		System.out.println("summa"+(i+j+k));
+	}
+	
+	
+	
+	
+	
 	public static void main(String[] args) {
 		
-		int e=12;
-		int r=21;
+		printNumbers(12);
 		
-		
-		Matte.plus(e, r);
-		Matte.plus(4, 5.0);
-		int di=Matte.Minus(12,7);
-		System.out.println(di*1.25);
-		System.out.println(e+"  "+r);
-		
+		printSumma(5,5);
+
+		printSumma(5,5,5);
 	}
+	
 	
 }

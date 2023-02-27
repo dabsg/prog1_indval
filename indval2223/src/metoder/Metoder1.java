@@ -2,22 +2,15 @@ package metoder;
 
 public class Metoder1 {
 
-	// prints array 
-	private static void printArr() {                 // metodhuvud
+	
+	
+	
+	public static void printHelloWorld() {
 		
-		int a[] = {1,2,3554,56};
+		System.out.println("Hello World");
 		
-		for (int i = 0; i < a.length; i++) {
-			
-			System.out.println(a[i]);
-		}
 	}
-//	public static void main(String[] args) {
-//		
-//		Metoder1.printArr();
-//		Metoder1.printArr();
-//		Metoder1.printArr();
-//	}
+	
 	
 	
 	
