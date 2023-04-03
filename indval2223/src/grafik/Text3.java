@@ -9,23 +9,26 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class Text3 extends JFrame {
+public class Text3 extends JFrame {    // ärver klassen jfram och blir själv ett fönster
 
-	 JLabel t=new JLabel("hej"); 
-	 JButton b=new JButton("click me");
+	 JLabel t=new JLabel("hej");         // skapar ett label objekt och lagrar de i t
+	 JButton b=new JButton("click me");   // sjapar ett kanpp objekt och lagrar de i b
 		
 	public Text3() {
 		
-	setLayout(new FlowLayout());
-	this.setVisible(true);
-	this.setSize(new Dimension(400,400));
-	this.add(t);
-	this.add(b);
-	b.addActionListener(e->{
+	setLayout(new FlowLayout()); // sätter layout 
+	setVisible(true);      // gör fönster synligt
+	setSize(new Dimension(400,400));  // sätter storlek på fönster
+	add(t);  // lägger till label text ruta
+	add(b);  // lägger till knapp
+	
+	
+	b.addActionListener(e->{   // lyssnar efter händelser
 		
-		t.setText("hej då");
+		t.setText("hej då");  // byter texten
 		
 	});
+	
 	
 	}
 	
