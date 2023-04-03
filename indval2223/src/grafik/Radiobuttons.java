@@ -43,7 +43,6 @@ public class Radiobuttons {
 		f.add(java);
 		f.add(b3);
 		f.add(skapaKonto);
-
 		f.add(response);
 
 		skapaKonto.addActionListener(e -> {
