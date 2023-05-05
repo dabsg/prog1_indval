@@ -25,7 +25,7 @@ public class KomboMain {
 		
 		höger.addActionListener(e->{
 			
-			k.x[0]=k.x[0]+5;
+			k.x[0]=k.x[0]+5; // flyttar det första punktens x kordinat åt höger 5 px.
 			
 			System.out.println(k.x[0]);
 			
