@@ -24,7 +24,7 @@ public class Musse extends JComponent {
 		g.setColor(Color.green);
 		g.fillOval(300, 300, 30, 30);
 		g.fillRect(0, 300, 200, 200);
-		
+		g.drawString("00:00", 100, 100);
 		super.paintComponent(g);
 	}
 	

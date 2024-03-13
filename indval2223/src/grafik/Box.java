@@ -1,6 +1,7 @@
 package grafik;
 
 
+import java.awt.Color;
 import java.awt.FlowLayout;
 
 import javax.swing.JButton;
@@ -28,6 +29,7 @@ public class Box {
 			if(b.isSelected()) {
 				
 				System.out.println("i bockad");
+				f.getContentPane().setBackground(Color.pink);
 				
 			}else {
 				

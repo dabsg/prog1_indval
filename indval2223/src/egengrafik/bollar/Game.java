@@ -17,6 +17,10 @@ public class Game extends JComponent {
 
 		for (int i = 0; i < b.length; i++) {
 
+			
+			
+			
+			
 			b[i] = new Boll((int) (Math.random() * 700), 
 					(int) (Math.random() *700), 
 					(int) (Math.random()*6)-3, 
